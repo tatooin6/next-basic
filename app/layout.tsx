@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: "Generated with love by Vercel",
 };
 
+// RootLayout is a HOC
 export default function RootLayout({
   children,
 }: Readonly<{
