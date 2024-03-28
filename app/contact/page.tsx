@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'SEO Contact',
+  description: 'SEO Contact',
+  appleWebApp: false,
+  icons: 'icon.png'
+};
+
 export default function ContactPage() {
   return (
     <>
