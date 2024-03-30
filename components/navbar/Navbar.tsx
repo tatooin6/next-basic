@@ -1,6 +1,6 @@
 
 export const Navbar = () => {
-  console.log('%cNavbar working on the server side', 'color:cyan');
+  console.log('%cNavbar is a Server Component working on the server side', 'color:cyan');
 
   return (
     <nav className="flex bg-blue-800 bg-opacity-30 p-2 m-2 rounded">
