@@ -7,7 +7,7 @@ export default function GeneralLayout({ children }: Readonly<{
     <>
       <Navbar />
       <main className="flex flex-col items-center p-24">
-        <span className="text-lg">Hello Root Layout General</span>
+        <span className="text-lg">Tato Web Development Portfolio</span>
         { children }
       </main>
     </>
